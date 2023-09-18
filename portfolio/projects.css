@@ -1,0 +1,70 @@
+#services .container .row{
+    justify-content: space-around;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+.r-header{
+    margin-top: 1%;
+    height: 20%;
+    color: #f1c40f;
+    text-align: center;
+    padding: 4% 0;
+    font-size: 2em;
+}
+.r-body{
+    height: 70vh;
+    padding: 20px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.r-body-col{
+    background-color: black;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 2%;
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1%;
+    box-shadow: 0 0 20px #ffffff34;
+}
+.r-body-col i{
+    height: 20%;
+    color: #f1c40f;
+    font-size: 3em;
+    padding: 8% 3%;
+}
+.r-body-col h3{
+    margin-top: 5%;
+    padding: 4%;
+    font-size: 1.8em;
+    color: #f1c40f;
+}
+.r-body-col p{
+    padding: 15% 4%;
+    font-size: .8em;
+    margin-top: 1%;
+}
+.r-body-col button{
+    margin-top: 1%;
+}
+.r-body-col h6{
+    padding: 4%;
+    font-size: .8em;
+}
+.r-body-col:hover{
+    font-size: 1.2em;
+    color: #f1c40f;
+    transition-duration: .1s;
+    background-color: rgba(50, 41, 41, 0.503);
+    border-radius: 20px;
+    height: 90%;
+    width: 27%;
+    box-shadow: none;
+}

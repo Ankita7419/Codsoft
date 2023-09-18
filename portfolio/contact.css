@@ -1,0 +1,96 @@
+#contact .container .row{
+    display: flex;
+    height: 100%;
+} 
+.row-1{
+    height: 95%;
+    width: 40%;
+    margin: auto;
+}
+.row-1 .header{
+    color: #ffffff;
+    font-size: 3em;
+    padding: 20% 0 2% 5%;
+}
+.contact-1{
+    color: #ffffff;
+    padding: 6% 0 2% 5.5%;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 2.3em;
+    margin-right: 6%;
+}
+.contact-2{
+    color: #ffffff;
+    padding: 6% 0 2% 5.5%;
+    display: flex;
+    align-items: center;
+}
+.hov:hover{
+    color: #f1c40f;
+}
+.contact-3{
+    display: flex;
+}
+.contact-3 .cont-col a i{
+    color: white;
+    transition:transform 0.5s;
+}
+.cont-col a i:hover{
+    transform:translateY(-30%);
+    color: #f1c40f;
+}
+.cont-col{
+    width: 20%;
+    padding: 6% 6%;
+    font-size: 3em;
+}
+.dl-cv{
+    padding: 6%;
+}
+.dl-cv a:hover{
+    font-size: 1.2em;
+    transition: .5s;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2.5% 5%;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    color: white;
+    height: 70%;
+}
+
+.row-2{
+    height: 95%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.row-2 div input{
+    height: 250%;
+    width: 80%;
+}
+.txt{
+    padding: 4%;
+}
+.txt input{
+    border-radius: 7px;
+    padding-left: 2%;
+    background-color: rgba(96, 105, 109, 0.279);
+}
+.s-txt{
+    padding: 4%;
+    margin-top: 18%;
+}
+.row-2-3{
+    height: 25%;
+}
+.row-2-3 input{
+    padding-bottom: 28%;
+}
